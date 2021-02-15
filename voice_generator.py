@@ -19,7 +19,7 @@ def remove_custom_emoji(text):
 # ************************************************
 def url_shouryaku(text):
     pattern = "https?://[\w/:%#\$&\?\(\)~\.=\+\-]+"
-    return re.sub(pattern,'URLは省略するのデス！',text)   # 置換処理
+    return re.sub(pattern,'URL省略',text)   # 置換処理
 
 # ************************************************
 # remove_picture
