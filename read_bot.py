@@ -6,7 +6,7 @@ import subprocess
 import ffmpeg
 from voice_generator import creat_WAV
 
-client = commands.Bot(command_prefix='.')
+client = commands.Bot(command_prefix='kszk/')
 voice_client = None
 
 
@@ -71,4 +71,4 @@ async def on_message(message):
     print('---on_message_end---')
 
 
-client.run("トークン")
+client.run("BOT_TOKEN")
